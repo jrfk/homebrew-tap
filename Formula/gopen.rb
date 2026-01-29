@@ -1,18 +1,18 @@
 class Gopen < Formula
   desc "Open Google Cloud Console services from CLI"
   homepage "https://github.com/jrfk/gopen"
-  version ""
+  version "0.1.0-test.5"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/jrfk/gopen/releases/download/v/gopen-macos-arm64.tar.gz"
-    sha256 "335db81427d25568869d8b2db40b69a3c99b7d89e40d12fc856ef2a782ac668e"
+    url "https://github.com/jrfk/gopen/releases/download/v0.1.0-test.5/gopen-macos-arm64.tar.gz"
+    sha256 "5f32b298eebda074e86233b35646ba7a44a0b3371a6d7ba04b3b3e9a15bc1189"
   end
 
   on_linux do
     depends_on arch: :x86_64
-    url "https://github.com/jrfk/gopen/releases/download/v/gopen-linux-x86_64.tar.gz"
-    sha256 "88cb3f1e9cc0139380a5ae94e01523cc8f59d7081955f7569d430f36d72b2ac2"
+    url "https://github.com/jrfk/gopen/releases/download/v0.1.0-test.5/gopen-linux-x86_64.tar.gz"
+    sha256 "e83d2eddbaf22c8bdabce175604234b3f0577aced06cf84c3b91b9c78b0c589b"
   end
 
   def install
